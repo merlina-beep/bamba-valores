@@ -18,10 +18,6 @@ export default function Hero() {
       <div className="wrap pad hero__inner">
         <h1 className="hero__title"><Rich parts={hero.titulo} /></h1>
         <p className="hero__lead"><Rich parts={hero.bajada} /></p>
-        <div className="hero__actions">
-          <a className="btn btn--primary" href="#contacto">{hero.cta}</a>
-          <a className="btn btn--ghost" href="#Inversiones">{hero.ctaSecundario}</a>
-        </div>
       </div>
     </section>
   );
